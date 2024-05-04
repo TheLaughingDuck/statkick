@@ -17,7 +17,7 @@ unif_random(n, min = 0, max = 1)
 A uniformly random number.
 }
 \description{
-Generate uniformly random numbers
+This method uses an implementation of Linear Congruential pseudorandom Generators (LCG), with constants chosen based on the reference (listed below).
 }
 \references{
 Steele, Guy; Vigna, Sebastiano (15 January 2020). "Computationally easy, spectrally good multipliers for congruential pseudorandom number generators". \href{https://arxiv.org/abs/2001.05304}{arXiv: 2001.05304}
